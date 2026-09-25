@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+*.xcodeproj
+DerivedData/
+.DS_Store
+build/
+# The development log: session notes, kept on this Mac only.
+MEMORY.md

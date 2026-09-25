@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- The hardened runtime (required for notarization) blocks audio input
+         without this. The system audio tap reaches the app as the input
+         stream of a private aggregate device (SystemAudioTap.swift). -->
+    <key>com.apple.security.device.audio-input</key>
+    <true/>
+</dict>
+</plist>
